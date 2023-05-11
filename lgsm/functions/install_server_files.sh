@@ -77,7 +77,7 @@ fn_install_server_files() {
 		local_filename="etlegacy-v2.81.1-i386.tar.gz"
 		chmodx="nochmodx" run="norun"
 		force="noforce"
-		md5="0770c036845a6aae69e984d5403785c6"
+		md5="f4cff59effae171407bc0c280665bc25"
 	elif [ "${shortname}" == "mohaa" ]; then
 		remote_fileurl="http://linuxgsm.download/MedalofHonorAlliedAssault/moh_revival_v1.12_RC3.5.1.tar.xz"
 		local_filedir="${tmpdir}"
