@@ -72,12 +72,12 @@ fn_install_server_files() {
 		force="noforce"
 		md5="2c6be1bb66ea631b9b2e7ae6216c6680"
 	elif [ "${shortname}" == "etl" ]; then
-		remote_fileurl="http://linuxgsm.download/WolfensteinEnemyTerritory/etlegacy-v2.78.1-i386-et-260b.tar.xz"
+		remote_fileurl="https://dl.nqa.io/etlegacy/etlegacy-v2.81.1-i386.tar.gz"
 		local_filedir="${tmpdir}"
-		local_filename="etlegacy-v2.78.1-i386-et-260b.tar.xz"
+		local_filename="etlegacy-v2.81.1-i386.tar.gz"
 		chmodx="nochmodx" run="norun"
 		force="noforce"
-		md5="7c08b52cb09b30eadb98ea05ef780fc7"
+		md5="0770c036845a6aae69e984d5403785c6 "
 	elif [ "${shortname}" == "mohaa" ]; then
 		remote_fileurl="http://linuxgsm.download/MedalofHonorAlliedAssault/moh_revival_v1.12_RC3.5.1.tar.xz"
 		local_filedir="${tmpdir}"
