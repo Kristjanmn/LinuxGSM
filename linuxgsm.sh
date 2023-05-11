@@ -13,6 +13,10 @@
 # lgsm/config-lgsm
 # https://docs.linuxgsm.com/configuration/linuxgsm-config
 
+# DISCLAIMER
+# I do not own this project, I just make some minor changes for it to work as I want.
+# If the author(s) have any issues with my changes, then please let me know.
+
 # Debugging
 if [ -f ".dev-debug" ]; then
 	exec 5> dev-debug.log
